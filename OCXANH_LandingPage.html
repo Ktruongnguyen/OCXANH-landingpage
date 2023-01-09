@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OCXANH Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+  </head>
+  <body>
+    
+    <div class="container-fluid cf">
+      <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class='bx bxs-up-arrow'></i>
+      </button>
+      <div class="header">
+        <div class="top">
+          <div class="container">
+           
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <div class="logo">
+                <img src="img/Logo.png" />
+              </div>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#xemngay"
+                      >Về OCXANH
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#td2">Tính năng</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#giatri">Giá trị</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#blog">Blog</a>
+                  </li>
+                  <li class="nav-item" id="taiapp">
+                    <a class="nav-link" href="#">Tải app</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            
+            <!-- <div class="topnav">
+              <div class="logo">
+                <img src="img/Logo.png" />
+              </div>
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Về OCXANH</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tính năng</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Giá trị</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item" id="taiapp">
+                  <a class="nav-link" href="#">Tải app</a>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                      </a>
+                  </li>
+              </ul>
+            </div> -->
+          </div>
+        </div>
+        <div class="container">
+          <div class="pa1">
+            <div class="pa">
+              <h2>DỌN NHÀ SẠCH, CÓ</h2>
+              <h2 id="ocxanh">|OCXANH</h2>
+            </div>
+            <a href="#xemngay">
+              <div class="button">
+                <h3>XEM NGAY</h3>
+              </div>
+              <div class="download" id="download" >
+                <img src="img/download.png" />
+              </div> 
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="bg"></div>
+    </div>
+    <div class="container-fluid cf1">
+      <div class="container">
+        <div class="tieude" id="xemngay">
+          <h2>Về OCXANH</h2>
+          <p>Ứng dụng dọn nhà, giúp việc</p>
+        </div>
+        <div class="row r1">
+          <div class="bg-secondary col-xl-6 col-12">
+            <div class="anh1">
+              <img src="img/anh1.png" />
+            </div>
+          </div>
+          <div class="bg-secondary col-xl-6 col-12">
+            <h3>CÂU CHUYỆN</h3>
+            <div class="box1">
+              <img src="img/box1.png" />
+              <div class="pa2">
+                <p>
+                  OCXANH lấy xứ mệnh và hình tượng vỏ ốc để nói về ngôi nhà. Nơi
+                  mà đi theo bạn suốt cả cuộc đời, nơi có những người thân yêu
+                  đợi bạn trở về sau một ngày làm việc mệt mỏi.
+                </p>
+              </div>
+            </div>
+
+            <div class="box2">
+              <img src="img/box2.png" />
+              <div class="pa3" id="message">
+                <p>
+                  Chính từ những ý tưởng đó mà chúng tôi OCXANH là những người
+                  mang xứ mệnh giúp căn nhà bạn luôn gọn gàng sạch sẽ và an
+                  toàn.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid cf3">
+      <div class="container">
+        <div class="row r2">
+          <div class="tieude" id="td2">
+            <h2>Tính năng</h2>
+            <p>Ứng dụng dọn nhà, giúp việc</p>
+          </div>
+          <div class="anh2">
+            <img src="img/anh2.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid cf4">
+      <div class="container">
+        <div class="tieude" id="giatri">
+          <h2>Giá trị</h2>
+          <p>Chúng tôi muốn mang lại</p>
+        </div>
+        <div class="row r3">
+          <div class="anh3">
+            <img src="img/anh3.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid cf3">
+      <div class="container">
+        <div class="row r2">
+          <div class="tieude" id="blog">
+            <h2>Blog</h2>
+            <p>Cuối tuần thảnh thơi</p>
+          </div>
+        </div>
+        <div class="row r2">
+          <div class="blog">
+            <div class="blog1">
+              <img src="img/blog1.png" />
+              <div class="blog-text">
+                <h4>Những tip lau dọn nhà cửa</h4>
+                <p>
+                  Lau dọn nhà cửa đôi khi không hề
+                  <br />
+                  dễ dàng với mỗi người...
+                </p>
+              </div>
+            </div>
+            <div class="blog1">
+              <img src="img/blog2.png" />
+              <div class="blog-text">
+                <h4>Lau dọn như người Nhật…</h4>
+                <p>
+                  Phong cách gọn gàng sạch sẽ của
+                  <br />
+                  người Nhật luôn tỉ mỉ và...
+                </p>
+              </div>
+            </div>
+            <div class="blog1">
+              <img src="img/blog3.png" />
+              <div class="blog-text">
+                <h4>3 Sai lầm khi dọn "WC"</h4>
+                <p>
+                  Tưởng chừng như một công việc
+                  <br />
+                  đơn giản nhưng thực chất...
+                </p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid cf4">
+      <div class="container">
+        <div class="row r2">
+          <div class="tieude" id="td2">
+            <h2>Phản hồi khách hàng</h2>
+            <p>Chúng tôi luôn lắng nghe ý kiến của bạn</p>
+          </div>
+        </div>
+        <div class="row r2">
+          <!-- Slideshow container -->
+         
+          
+        </div>
+      </div>
+      <div class="testimonial">
+        <div class="container">
+         <div class="testimonial__inner">
+           <div class="testimonial-slider">
+             <div class="testimonial-slide">
+               <div class="testimonial_box">
+                 <div class="testimonial_box-inner">
+                   <div class="testimonial_box-top">
+                     <div class="testimonial_box-icon">
+                       <i class="fas fa-quote-right"></i>
+                     </div>
+                     <div class="testimonial_box-img">
+                      <img src="img/Kh1.png" alt="profile">
+                    </div>
+                     <div class="testimonial_box-text">
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus optio facilis beatae.</p>
+                     </div>
+                     
+                    <div class="testimonial_box-name">
+                      <h4>John Doe</h4>
+                   </div>
+                   <div class="testimonial_box-job">
+                     <p>MANAGER</p>
+                   </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <div class="testimonial-slide">
+              <div class="testimonial_box">
+                <div class="testimonial_box-inner">
+                  <div class="testimonial_box-top">
+                    <div class="testimonial_box-icon">
+                      <i class="fas fa-quote-right"></i>
+                    </div>
+                    <div class="testimonial_box-img">
+                     <img src="img/Kh2.png" alt="profile">
+                   </div>
+                    <div class="testimonial_box-text">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus optio facilis beatae.</p>
+                    </div>
+                   <div class="testimonial_box-name">
+                     <h4>John Doe</h4>
+                  </div>
+                  <div class="testimonial_box-job">
+                    <p>CEO</p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-slide">
+              <div class="testimonial_box">
+                <div class="testimonial_box-inner">
+                  <div class="testimonial_box-top">
+                    <div class="testimonial_box-icon">
+                      <i class="fas fa-quote-right"></i>
+                    </div>
+                    <div class="testimonial_box-img">
+                      <img src="img/Kh3.png" alt="profile">
+                    </div>
+                    <div class="testimonial_box-text">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus optio facilis beatae.</p>
+                    </div>
+                   <div class="testimonial_box-name">
+                     <h4>John Doe</h4>
+                  </div>
+                  <div class="testimonial_box-job">
+                    <p>Co-Founder</p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-slide">
+              <div class="testimonial_box">
+                <div class="testimonial_box-inner">
+                  <div class="testimonial_box-top">
+                    <div class="testimonial_box-icon">
+                      <i class="fas fa-quote-right"></i>
+                    </div>
+                    <div class="testimonial_box-img">
+                      <img src="img/Kh4.png" alt="profile">
+                    </div>
+                    <div class="testimonial_box-text">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus optio facilis beatae.</p>
+                    </div>
+                    
+                   <div class="testimonial_box-name">
+                     <h4>John Doe</h4>
+                  </div>
+                  <div class="testimonial_box-job">
+                    <p>SEO</p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </div>
+         </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid cf5">
+      <div class="container">
+        <div class="row r2">
+          <div class="tieude" id="td3">
+            <h2 style="color: white">Liên hệ</h2>
+            <p>Nếu bạn có thắc mắc cần giải đáp</p>
+          </div>
+        </div>
+        <div class="row r3">
+          <div class="bg-secondary col-xl-7">
+            <img src="img/anh4.png" />
+          </div>
+          <div class="bg-secondary text col-xl-5">
+            <input type="text" placeholder="Họ tên" />
+            <input type="text" placeholder="Email" />
+            <input type="text" placeholder="Số điện thoại" />
+            <input id="cauhoi" type="text" placeholder="" />
+            <div class="button2">
+              <h4>Gửi</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid cf6">
+      <div class="container">
+        <div class="row r3">
+          <div class="bg-secondary b1 footer col-xl-4 col-12">
+            <div class="logo1">
+              <img src="img/Logo.png" />
+            </div>
+            <p>
+              Công Ty TNHH OCXANH
+              <br />
+              264 Đội Cấn, Phường Ngọc Hà, Quận Ba Đình, Tp.Hà Nội 72506
+              <br />
+              Mã số doanh nghiệp: 0313723825
+              <br />
+              Đại Diện Công Ty: Ông Đỗ Hồng Phúc
+              <br />
+              Chức vụ: Giám Đốc
+              <br />
+              Số điện thoại: 1900 636 736
+              <br />
+              Email: support@ocxanh.com
+            </p>
+            <img src="img/download.png" />
+          </div>
+          <div class="bg-secondary b1 col-xl-5 col-6">
+            <p>
+              Về OCXANH
+              <br/>
+              Tính năng
+              <br/>
+              Giá trị
+              <br/>
+              Blog
+              <br/>
+              Tải app
+            </p>
+          </div>
+          <div class="bg-secondary b2 col-xl-3 col-6">
+            <p>Gương mặt đại diện</p>
+            <img src="img/anh5.png" style="margin-bottom: 10px" />
+            <p>Theo dõi chúng tôi</p>
+            <div class="icon">
+              <i class="bx bxl-facebook-circle"></i>
+              <i class="bx bxl-instagram-alt"></i>
+              <i class="bx bxl-youtube"></i>
+              <i class="bx bxl-twitter"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script src="myscripts.js"></script>
+  </body>
+</html>
